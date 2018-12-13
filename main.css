@@ -1,0 +1,119 @@
+html{
+  background-image:url(images/qbkls.png);
+}
+
+header{
+    text-decoration: none;
+    display: block;
+}
+
+.MariaWinder{
+    margin-bottom: 0;
+    font-size: 40pt;
+    text-align: left;
+}
+
+nav{
+    list-style:none;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: center;
+}
+
+
+body {
+  margin: 30px auto;
+  max-width: 60%;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.5;
+  padding: 30px 20px;
+  text-align: left;
+}
+
+h1 {
+  padding: 20px 0px 10px 0px;
+}
+
+a {
+  color: #FF9CC2;
+  text-decoration:none;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+}
+
+.portfolio-item {
+  margin-top: 35px;
+  padding: 10px;
+}
+
+.on{
+  color: gray;
+}
+
+iframe{
+  max-width: 100%;
+  margin-left: 75px;
+}
+
+.iframe{
+  margin-left: 75px;
+}
+
+footer{
+  margin-top: 20px;
+  color: gray;
+  text-align: center;
+  font-size: 11pt;
+}
+
+@media screen and (min-width:700px){
+
+     body{
+         margin: auto;
+         max-width: 800px;
+     }
+     header{
+         text-align: left;
+         margin-bottom: 30px;
+         border-bottom: solid gray 2px;
+     }
+     .MariaWinder{
+         font-size: 70pt;
+         display: inline-block;
+         margin-bottom: 0px;
+     }
+     nav{
+         display: inline-block;
+         text-align: left;
+     }
+     ul{
+         padding-left: 0;
+         margin-left: 15px;
+     }
+
+     h1{
+       text-align: right;
+     }
+
+     h2{
+       text-align: right;
+       font-size: 25pt;
+     }
+
+     h4{
+       margin-left: 200px;
+     }
+
+     .mw{
+       margin-left: 300px;
+     }
